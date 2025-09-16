@@ -6,7 +6,10 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"lint": "biome lint src",
+		"format": "biome format src",
+		"check": "biome check src"
 	},
 	"dependencies": {
 		"@astrojs/mdx": "^4.3.5",
@@ -16,6 +19,8 @@
 		"sharp": "^0.34.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.4"
+		"@biomejs/biome": "^2.2.4",
+		"prettier": "^3.6.2",
+		"prettier-plugin-astro": "^0.14.1"
 	}
 }
